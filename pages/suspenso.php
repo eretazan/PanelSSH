@@ -6,7 +6,9 @@ require_once("system/config.php");
 protegePagina("user");
 
 
-		 $SQLUsuario = "SELECT * FROM usuario WHERE id_usuario = '".$_SESSION['usuarioID']."'";
+		 $SQLUsuario = "SELECT * FROM usuario WHERE
+    
+     id_usuario = '".$_SESSION['usuarioID']."'";
          $SQLUsuario = $conn->prepare($SQLUsuario);
          $SQLUsuario->execute();
          $usuario = $SQLUsuario->fetch();
