@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "semyon-ivanov.cortex-builder"
+        "semyon-ivanov.cortex-builder",
+        "vscjava.vscode-java-debug"
     ]
 }
